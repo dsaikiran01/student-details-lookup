@@ -73,12 +73,15 @@ A single-page web application that retrieves student details from a google sheet
 ## Visual Previews
 
 - **Screenshots:**
-  1. Student Details Lookup Homepage
-  2. Roll Number Search Interface
-  3. Fetched Student Details Display
+  1. Student Details Lookup - Roll Number Search Interface
+![Screenshot from 2024-10-11 14-38-40](https://github.com/user-attachments/assets/4a1ed76d-f78e-46a3-b448-f47f7fe8fae9)
+
+  2. Fetched Student Details Display
+![Screenshot from 2024-10-11 14-40-16](https://github.com/user-attachments/assets/f7759556-4b41-4826-ad07-6f9e746ef2f1)
 
 - **Demo GIF:**  
   A demo GIF showcasing the workflow of searching for a student's details will be added here.
+![student_details](https://github.com/user-attachments/assets/7066ffce-32e3-4fe3-a429-eb43f703b05e)
 
 ## Additional Information
 
