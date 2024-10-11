@@ -1,0 +1,8 @@
+#folders
+node_modules/
+
+#files
+.env
+*.txt
+server-1.js
+

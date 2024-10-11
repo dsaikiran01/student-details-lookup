@@ -1,0 +1,63 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+}
+
+.student-lookup {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.student-lookup input {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  margin: 5px 5px 15px 0;
+}
+
+.student-lookup button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.student-lookup button:hover {
+  background-color: #218838;
+}
+
+.student-data table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.student-data th, .student-data td {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.student-data th {
+  background-color: #6a5acd;
+  color: #fff;
+}
+
+.student-data td {
+  background-color: #f8f9fa;
+  color: #000;
+}
