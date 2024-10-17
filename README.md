@@ -14,13 +14,18 @@ A single-page web application that retrieves student details from a google sheet
 
 ## Installation Instructions
 
-### Backend Setup (Root Directory)
-
-1. Clone the repository:
+* Clone the repository:
    ```bash
    git clone https://github.com/dsaikiran01/student-details-lookup.git
+   ```
+
+### Backend Setup (Root Directory)
+
+1. Enter root directory
+   ```bash
    cd student-details-lookup
    ```
+
 2. Install backend dependencies:
    ```bash
    npm install
@@ -33,7 +38,7 @@ A single-page web application that retrieves student details from a google sheet
 
 3. Set up Google Drive API access:
    - Enable the Google Sheets API and generate credentials for the project.
-   - Place your credentials in a `.env` file in the root directory.
+   - Place your credentials in a `.env` file in the `root` directory.
    - Example `.env` file:
      ```plaintext
      GOOGLE_SHEETS_API_KEY=your_api_key
@@ -62,6 +67,13 @@ A single-page web application that retrieves student details from a google sheet
 3. Start the frontend development server:
    ```bash
    npm start
+   ```
+
+### For Linux users
+
+* use script for dependencies installation
+   ```bash
+   ./setup.sh
    ```
 
 ## Usage Instructions
